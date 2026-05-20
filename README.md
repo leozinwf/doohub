@@ -1,16 +1,38 @@
-# React + Vite
+# DooHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O DooHub é um sistema abrangente para gestão de colaboradores, englobando controle de ponto, banco de horas, comunicação interna e administração de recursos humanos. O projeto é construído com tecnologias modernas de front-end e utiliza um backend como serviço (BaaS) para o gerenciamento de dados e autenticação.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O projeto foi desenvolvido com as seguintes tecnologias principais:
 
-## React Compiler
+* **React (v19)**
+* **Vite**
+* **Supabase** (para banco de dados e autenticação)
+* **Tailwind CSS** (para estilização)
+* **React Router DOM** (para roteamento)
+* **Framer Motion** (para animações)
+* **Lucide React** (para ícones)
+* **React Hot Toast** (para notificações)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📋 Funcionalidades
 
-## Expanding the ESLint configuration
+O sistema está dividido em diferentes módulos funcionais:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Autenticação e Perfil:** Login, recuperação de senha e gestão de perfil do usuário.
+* **Módulo de Ponto:** Funcionalidades para bater ponto, visualizar o histórico, gerenciar o banco de horas e extrair relatórios.
+* **Comunicação:** Área dedicada para envio e recebimento de feedbacks.
+* **Administração e Gestão:** Controle de colaboradores, configurações da empresa, gerenciamento de permissões e controle de acesso a módulos.
+* **Sistema de Convites:** Rota específica para que novos usuários possam aceitar convites de ingresso à plataforma.
+
+## ⚙️ Pré-requisitos
+
+Antes de começar, você precisará ter instalado em sua máquina:
+* [Node.js](https://nodejs.org/) (versão compatível com o projeto)
+* Gerenciador de pacotes (NPM ou Yarn)
+
+## 🛠️ Instalação e Execução
+
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/leozinwf/doohub.git](https://github.com/leozinwf/doohub.git)
